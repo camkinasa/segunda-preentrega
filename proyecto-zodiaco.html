@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Zodiaco</title>
+    <link href="https://bootswatch.com/5/quartz/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <form id="idForm">
+            <h3>Ingrese su nombre y fecha de nacimiento: </h3>
+            <input type="text" id="idName" placeholder="Nombre" name="nombre">
+            <input type="number" id="idDia" placeholder="Día" name="dia" min="1" max="31">
+            <input type="number" id="idMes" placeholder="Mes" name="mes" min="1" max="12">
+            <button type="submit" class="btn btn-primary">Consultar signo</button>
+        </form><br><br>
+    </div>
+    <button id="botonMostrarConsultantes" class="btn btn-secondary">Mostrar consultantes</button><br>
+    <div id="divConsultantes" class="row"></div>
+    <script src="js/proyecto-zodiaco2.js"></script>
+</body>
+</html>
